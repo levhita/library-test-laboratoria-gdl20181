@@ -1,13 +1,17 @@
 {
-  "name": "library-test-laboratoria-gdl20181",
+  "name": "library-test-laboratoria",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Repeats 'Nunca Más' as many times as needed",
+  "main": "lib/alanPoe.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/babel src --out-dir lib"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/levhita/library-test-laboratoria-gdl20181.git"
+  },
+  "author": "Levhita <levhita@gmail>",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
